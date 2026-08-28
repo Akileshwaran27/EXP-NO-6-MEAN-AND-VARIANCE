@@ -33,14 +33,14 @@ To write a program for mean, variance and cross correlation in SCILAB and verify
 # PROGRAM
 ~~~
 function z = f(x)
-    z = 2 * (1 - x)^2;
+    z = 3 * (1 - x)^2;
 endfunction
 
 a = 0;
 b = 1;
 
 function z = fx(x)
-    z = x * 2 * (1 - x)^2;
+    z = x * 3 * (1 - x)^2;
 endfunction
 
 EX = intg(a, b, fx);
@@ -48,11 +48,11 @@ disp("Mean of X = ");
 disp(EX);
 
 function z = g(y)
-    z = 2 * (1 - y)^2;
+    z = 3 * (1 - y)^2;
 endfunction
 
 function z = fy(y)
-    z = y * 2 * (1 - y)^2;
+    z = y * 3 * (1 - y)^2;
 endfunction
 
 EY = intg(a, b, fy);
@@ -60,7 +60,7 @@ disp("Mean of Y = ");
 disp(EY);
 
 function z = g(x)
-    z = x^2 * 2 * (1 - x)^2;
+    z = x^2 * 3 * (1 - x)^2;
 endfunction
 
 a = 0;
@@ -69,7 +69,7 @@ b = 1;
 EX2 = intg(a, b, g);
 
 function z = h(y)
-    z = y^2 * 2 * (1 - y)^2;
+    z = y^2 * 3 * (1 - y)^2;
 endfunction
 
 EY2 = intg(a, b, h);
@@ -92,12 +92,13 @@ n2=max(size(x))-1;
 r=corr(x,y,n1);
 
 plot2d3('gnn',r);
+
 ~~~
+# TABLE
+<img width="817" height="1129" alt="WhatsApp Image 2026-08-28 at 4 03 45 PM" src="https://github.com/user-attachments/assets/2cd413f2-676e-4244-9395-61d4181f73b7" />
 
 # OUTPUT WAVEFORM
-
-<img width="1076" height="864" alt="image" src="https://github.com/user-attachments/assets/9e42a4a4-de01-43ba-a654-b2da52f65695" />
-
+<img width="762" height="610" alt="Screenshot 2026-08-28 160832" src="https://github.com/user-attachments/assets/b9739555-8093-4d94-b9b9-90d99f0200a2" />
 
 
 # RESULT
