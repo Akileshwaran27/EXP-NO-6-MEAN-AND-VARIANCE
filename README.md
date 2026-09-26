@@ -95,7 +95,8 @@ plot2d3('gnn',r);
 
 ~~~
 # TABLE
-<img width="817" height="1129" alt="WhatsApp Image 2026-08-28 at 4 03 45 PM" src="https://github.com/user-attachments/assets/2cd413f2-676e-4244-9395-61d4181f73b7" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/b523f908-bfe3-4491-a1f4-f72e703e918e" />
+
 
 # OUTPUT WAVEFORM
 <img width="762" height="610" alt="Screenshot 2026-08-28 160832" src="https://github.com/user-attachments/assets/b9739555-8093-4d94-b9b9-90d99f0200a2" />
